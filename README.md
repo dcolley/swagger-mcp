@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/dcolley-swagger-mcp-badge.png)](https://mseep.ai/app/dcolley-swagger-mcp)
+
 # Swagger MCP Server
 
 A server that ingests and serves Swagger/OpenAPI specifications through the Model Context Protocol (MCP).
