@@ -5,7 +5,7 @@ import axios from "axios";
 import SwaggerParser from "@apidevtools/swagger-parser";
 import { OpenAPI } from "openapi-types";
 import { Request, Response } from 'express';
-import { AuthConfig, ToolInput, SecurityScheme } from './types.js';
+import { AuthConfig, ToolInput, SecurityScheme } from './types';
 
 let transport: SSEServerTransport | null = null;
 
