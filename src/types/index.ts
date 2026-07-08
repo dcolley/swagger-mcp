@@ -18,8 +18,8 @@ export interface AuthConfig {
   password?: string;
   token?: string;
   apiKey?: string;
-  apiKeyIn?: 'header' | 'query';
   apiKeyName?: string;
+  apiKeyIn?: 'header' | 'query';
 }
 
 export interface SecurityScheme {
@@ -30,9 +30,9 @@ export interface SecurityScheme {
   scheme?: string;
   bearerFormat?: string;
   flows?: any;
-}
+} 
 
 export interface ToolInput {
   auth?: AuthConfig;
   [key: string]: any;
-} 
+}
